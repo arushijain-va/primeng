@@ -559,9 +559,10 @@ export class AutoComplete implements AfterViewChecked,AfterContentInit,DoCheck,O
 
                 //tab
                 case 9:
-                    if (this.highlightOption) {
-                        this.selectItem(this.highlightOption);
-                    }
+                    /*Arushi Jain: Disabling sleection of hightlighted option on tab*/
+                    //if (this.highlightOption) {
+                    //    this.selectItem(this.highlightOption);
+                    //}
                     this.hide();
                 break;
             }
